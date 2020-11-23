@@ -1,0 +1,190 @@
+[1606145575.326][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 44249
+[1606145575.326][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1606145575.978][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\QAGURU\\lesson3\\build\\downloads\\1606145574955_7548_13",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\QAGURU\\lesson3\\build\\downloads\\1606145574955_7548_13",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1606145575.980][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\QAGURU\\lesson3\\build\\downloads\\1606145574955_7548_13"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606145575.980][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606145575.981][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\836D~1\AppData\Local\Temp\scoped_dir8588_602758142" data:,
+[1606145576.432][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1606145577.444][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1606145578.460][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.198",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\836D~1\\AppData\\Local\\Temp\\scoped_dir8588_602758142"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60602"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4fe32b5457435bf835435dea6314d906"
+}
+[1606145578.503][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1606145578.503][INFO]: Waiting for pending navigations...
+[1606145578.505][INFO]: Done waiting for pending navigations. Status: ok
+[1606145578.610][INFO]: Waiting for pending navigations...
+[1606145578.611][INFO]: Done waiting for pending navigations. Status: ok
+[1606145578.611][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1606145578.614][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1606145578.614][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE SetTimeouts
+[1606145578.620][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND Navigate {
+   "url": "https://alfabank.ru/make-money/"
+}
+[1606145578.620][INFO]: Waiting for pending navigations...
+[1606145578.621][INFO]: Done waiting for pending navigations. Status: ok
+[1606145578.871][INFO]: Waiting for pending navigations...
+[1606145580.741][INFO]: Done waiting for pending navigations. Status: ok
+[1606145580.741][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE Navigate
+[1606145580.806][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".a1Etq03"
+}
+[1606145580.807][INFO]: Waiting for pending navigations...
+[1606145580.807][INFO]: Done waiting for pending navigations. Status: ok
+[1606145580.815][INFO]: Waiting for pending navigations...
+[1606145580.818][INFO]: Done waiting for pending navigations. Status: ok
+[1606145580.818][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "18f70dc7-c756-490f-8488-713fc47c174c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "75d2cd96-99d1-4464-83de-374ad0949ace"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0ba00c6a-b7a6-46b6-abd9-33a4942214df"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "881e7b43-9e2b-4df8-a357-605c3ab57a42"
+} ]
+[1606145580.840][INFO]: [4fe32b5457435bf835435dea6314d906] COMMAND Quit {
+
+}
+[1606145581.370][INFO]: [4fe32b5457435bf835435dea6314d906] RESPONSE Quit
